@@ -11,7 +11,7 @@ rl.question("Enter the directory: ", (inputDir) => {
 
   rl.question("Enter the character you want to remove from name file: ", (rename) => {
     files.map((file) => {
-      fs.renameSync(path.join(fullDir, file), path.join(fullDir, file.replace(new RegExp(rename), "")))
+      fs.renameSync(path.join(fullDir, file), path.join(fullDir, file.replace(new RegExp(rename, "g"), "")))
     })
     rl.close()
   })
