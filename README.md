@@ -10,6 +10,8 @@ Enter the directory: /test
 Enter the character you want to remove from name file: \:
 ```
 
+### Karaketer yang menyebabkan error muncul:
+
 * |
 * :
 * ?
