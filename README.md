@@ -1,3 +1,5 @@
+## Repository ini dibuat untuk menghindari error yang muncul ketika sedang mengcopy file
+
 ## default dir is set to your home directory
 
 ### You must use regex for unique char, see example below:
@@ -8,7 +10,7 @@ Enter the directory: /test
 Enter the character you want to remove from name file: \:
 ```
 
-### macam-macam karakter unik yang harus di hapus
+### Karaketer yang menyebabkan error muncul:
 
 * |
 * :
